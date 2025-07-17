@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col items-center gap-8 text-center max-w-3xl">
         <h1 className="text-5xl font-bold">Hana Pham</h1>
         <p className="text-xl text-gray-600">
-          Software Quality Analyst | Frontend Developer | Creative Designer
+           Quality Analyst | Sofware Developer | Creative Designer
         </p>
         <p className="text-base text-gray-700">
           Welcome to my personal portfolio. 
