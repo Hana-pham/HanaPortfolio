@@ -1,21 +1,12 @@
 import Link from "next/link";
-export default function Home() {
-  return (
+export default function ProjectsPage(){
+    return(
 <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans">
-    {/* Left content */}
+            {/* Left content */}
       <div className="max-w-xl space-y-6">
-        <h1 className="text-5xl font-serif lowercase">hana pham</h1>
-        <p className="text-lg text-gray-600">
-          third-year service analyst with deep experience across tech operations – including data, development, security, and networking. now transitioning into QA and platform engineering.
-        </p>
-        <p className="text-lg text-gray-600">
-          i bring curiosity, precision, and a strong user-focus to every project — with a growing interest in building smarter, AI-enhanced experiences.
-        </p>
-        <p className="text-lg text-gray-600">
-          i build to learn - and seek collaborators who do the same. Connection isn’t sentimental; it’s strategic. The right connectons push the work forward.
-        </p>
+        <h1 className="text-5xl font-serif lowercase">what i have been buidling</h1>
+        <p className="text-lg text-gray-600"></p>
       </div>
-
 
       {/* Right nav (desktop) */}
       <div className="hidden md:flex items-center">
@@ -37,6 +28,5 @@ export default function Home() {
         </nav>
       </div>
     </main>
-  );
+    );
 }
-
