@@ -5,7 +5,7 @@ export default function ContactPage() {
       <div className="max-w-xl space-y-6">
         <h1 className="text-5xl font-serif lowercase">get in touch</h1>
         <p className="text-lg text-gray-600">
-          whether you're a fellow developer, designer, or just curious — i'd love to have a coffee chat (or tea)!
+          whether you're a fellow developer, designer, or just curious — i&apos;d love to have a coffee chat (or tea)!
         </p>
         <div className="max-w-xl space-y-1">
           <p className="text-lg text-gray-600">
