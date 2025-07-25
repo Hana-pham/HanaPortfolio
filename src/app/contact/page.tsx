@@ -7,8 +7,6 @@ export default function ContactPage() {
         <p className="text-lg text-gray-600">
           whether you're a fellow developer, designer, or just curious — i'd love to have a coffee chat (or tea)!
         </p>
-        <p>i&apos;d love to have a coffee chat (or tea)!</p>
-
         <div className="max-w-xl space-y-1">
           <p className="text-lg text-gray-600">
             email:{" "}
