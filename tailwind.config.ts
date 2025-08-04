@@ -8,17 +8,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "cream-cloud": "#FFF9F0",
-        "sakura": "#F5B7B1",
-        "matcha": "#C7D8C3",
-        "warm-sand": "#E7D8C9",
-        "graphite-gray": "#3F3F3F",
-        "plum-smoke": "#7D6F71",
+        "cream": "#FFF9F0",
+        "dark-pink": "#F6A6B2",
+        "light-pink": "FBE4E4",
+        "matcha": "#ACC8A0",
+        "dark-grey": "3F3F3F",
+        "light-grey": "7D6F71"
       },
       fontFamily: {
-        sans: ["'Lora'", "sans-serif"],
-        heading: ["'Fraunces'", "serif"],
-      },
+        body: ['var(--font-inter)', 'sans-serif'],
+        heading: ['var(--font-cormorant)', 'serif'],
+}
+
     },
   },
   plugins: [],

@@ -1,10 +1,22 @@
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import { clearInterval } from "timers";
+const myNameColour = ['text-dark-grey','text-dark-pink','text-matcha'];
 export default function Home() {
+  const [colorIndex, setColorIndex] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(()=> {
+      setColorIndex((prev)=> (prev + 1) % myNameColour.length);
+    },2000);
+    return () => clearInterval(interval)
+  }, []);
+
   return (
 <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans">
     {/* Left content */}
       <div className="max-w-xl space-y-6">
-        <h1 className="text-5xl font-serif lowercase">hana pham</h1>
+        <h1 className={`text-5xl font-serif lowercase transition-colors duration-700 ${myNameColour[colorIndex]}`}>
+  hana pham</h1>
         <p className="text-lg text-gray-600">
           third-year service analyst with deep experience across tech operations – including data, development, security, and networking. now transitioning into QA and platform engineering.
         </p>
