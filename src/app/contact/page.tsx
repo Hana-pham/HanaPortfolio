@@ -1,5 +1,7 @@
 'use client';
 import Link from "next/link";
+import MobileNav from '@/components/MobileNav';
+import React from 'react';
 
 export default function ContactPage() {
   return (
@@ -66,12 +68,7 @@ export default function ContactPage() {
 
       {/* Bottom nav (mobile only) */}
       <div className="md:hidden mt-12">
-        <nav className="flex justify-center space-x-6 text-base text-gray-700">
-          <Link href="/" className="hover:underline">about</Link>
-          <Link href="/projects" className="hover:underline">projects</Link>
-          <Link href="/explore" className="hover:underline">explore</Link>
-          <Link href="/contact" className="hover:underline">contact</Link>
-        </nav>
+        <MobileNav />
       </div>
     </main>
   );
