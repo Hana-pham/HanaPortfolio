@@ -1,14 +1,11 @@
 'use client';
 import Link from "next/link";
-
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans">
       {/* Left content */}
       <div className="max-w-xl space-y-6">
-        <h1 className="text-5xl font-serif lowercase text-transparent bg-strawberry bg-clip-text bg-[length:200%_200%] animate-gradient-flow">
-          hana pham
-        </h1>
+        <h1 className="text-5xl font-serif lowercase text-transparent bg-strawberry bg-clip-text bg-[length:200%_200%] animate-gradient-flow">hana pham</h1>
         <p className="text-lg text-gray-600">
           third-year service analyst with deep experience across tech operations – including data, development, security, and networking. now transitioning into QA and platform engineering.
         </p>
