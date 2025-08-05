@@ -12,7 +12,7 @@ export default function Home() {
         </h1>
 
         <p className="text-lg text-dark-grey">
-          third-year service analyst with deep experience across tech operations — including data, development, security, and networking. now transitioning into QA and platform engineering.
+          third-year service analyst with deep experience across tech operations — including data, development, security, and networking. now transitioning into QA and AI platform engineering.
         </p>
 
         <p className="text-lg text-dark-grey">
