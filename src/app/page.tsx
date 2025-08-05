@@ -12,16 +12,16 @@ export default function Home() {
             hana pham
           </h1>
           <p className="text-lg text-dark-grey">
-            third-year service analyst with deep experience across tech operations — including data, development, security, and networking. now transitioning into QA and platform engineering.
+            third-year service analyst with deep experience across tech operations — including data, development, security, and networking. now transitioning into QA and AI platform engineering.
           </p>
           <p className="text-lg text-dark-grey">
             i bring curiosity, precision, and a strong user-focus to every project — with a growing interest in building smarter, AI-enhanced experiences.
           </p>
           <p className="text-lg text-dark-grey">
-            i build to learn — and seek collaborators who do the same. connection isn’t sentimental; it’s strategic. the right ones push the work forward.
+            i build to learn — and seek collaborators who do the same. connection is strategic. the right ones push the work forward.
           </p>
           <div className="inline-flex items-center gap-2 bg-light-pink/60 text-dark-pink text-sm px-3 py-1 rounded-full animate-pulse w-fit">
-            🌱 currently evolving — one thoughtful build at a time
+            🌱 always learning — one thoughtful build at a time
           </div>
         </div>
 

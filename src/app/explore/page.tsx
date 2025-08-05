@@ -9,7 +9,7 @@ export default function ExplorePage() {
       <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans bg-cream">
         <div className="max-w-xl space-y-6">
           <h1 className="text-5xl font-serif lowercase text-dark-grey">some articles i found and takeaways</h1>
-          <p className="text-lg text-dark-grey">i’m still sorting through ideas and steeping in what i've been reading — this space will slowly bloom with collected thoughts 🍓🍵</p>
+          <p className="text-lg text-dark-grey">i’m still sorting through ideas and steeping in what i've been reading — this space will slowly bloom🍓🍵</p>
           <div className="inline-flex items-center gap-2 bg-light-pink/60 text-dark-pink text-sm px-3 py-1 rounded-full animate-pulse w-fit">
             🧷 work in progress — reflections loading
           </div>
