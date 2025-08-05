@@ -1,10 +1,11 @@
-'use client';
 import Link from "next/link";
-import MobileNav from '@/components/MobileNav';
+import MobileNav from "@/components/MobileNav";
 import React from 'react';
+'use client';
 
 export default function ExplorePage() {
   return (
+    <>
     <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans bg-cream">
       
       {/* Left content */}
@@ -63,11 +64,9 @@ export default function ExplorePage() {
           <Link href="/contact" className="hover:underline">contact</Link>
         </nav>
       </div>
-
-      {/* Bottom nav (mobile only) */}
-      <div className="md:hidden mt-12">
-        <MobileNav />
-      </div>
     </main>
+          {/* Mobile bottom nav */}
+          <MobileNav />
+        </>
   );
 }
