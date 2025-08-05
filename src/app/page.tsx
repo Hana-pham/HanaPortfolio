@@ -1,7 +1,9 @@
+'use client';
+
+import React from 'react';
 import Link from "next/link";
 import MobileNav from "@/components/MobileNav";
-import React from 'react';
-'use client';
+
 
 export default function Home() {
   return (

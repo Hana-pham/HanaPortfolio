@@ -1,60 +1,52 @@
 'use client';
-import Link from "next/link";
-import MobileNav from '@/components/MobileNav';
+
 import React from 'react';
+import Link from "next/link";
+import MobileNav from "@/components/MobileNav";
+
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans bg-cream">
-      
-      {/* Left content */}
+    <>
+    <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans">
       <div className="max-w-xl space-y-6">
-        <h1 className="text-5xl font-serif lowercase text-dark-grey">
-          get in touch
-        </h1>
-
-        <p className="text-lg text-dark-grey">
-          whether you're a fellow dev, creative, or just curious — i'd love to chat over coffee, code, or maybe some matcha 🍵
+        <h1 className="text-5xl font-serif lowercase">get in touch</h1>
+        <p className="text-lg text-gray-600">
+          whether you're a fellow developer, designer, or just curious — i'd love to have a coffee chat (or matcha)!
         </p>
-
-        <div className="inline-flex items-center gap-2 bg-light-pink/60 text-dark-pink text-sm px-3 py-1 rounded-full animate-pulse w-fit">
-          💌 always open for conversation 
-        </div>
-
-        <div className="mt-6 space-y-3">
-          <p className="text-lg text-dark-grey">
+        <div className="max-w-xl space-y-1">
+          <p className="text-lg text-gray-600">
             email:{" "}
             <a
               href="mailto:the.hanapham@gmail.com"
-              className="underline decoration-dark-pink hover:text-dark-pink transition-colors"
+              className="text-blue-600 underline hover:text-blue-800"
             >
               the.hanapham@gmail.com
             </a>
           </p>
-          <p className="text-lg text-dark-grey">
-            linkedin:{" "}
+          <p className="text-lg text-gray-600">
+            linkedIn:{" "}
             <a
               href="https://www.linkedin.com/in/hana-pham-601a551b0/"
               target="_blank"
-              rel="noopener noreferrer"
-              className="underline decoration-dark-pink hover:text-dark-pink transition-colors"
+              className="text-blue-600 underline hover:text-blue-800"
             >
-              linkedin.com/in/hana-pham
+              linkedin/hanapham
             </a>
           </p>
-          <p className="text-lg text-dark-grey">
+          <p className="text-lg text-gray-600">
             github:{" "}
             <a
               href="https://github.com/Hana-pham"
               target="_blank"
-              rel="noopener noreferrer"
-              className="underline decoration-dark-pink hover:text-dark-pink transition-colors"
+              className="text-blue-600 underline hover:text-blue-800"
             >
               github.com/hana-pham
             </a>
           </p>
         </div>
       </div>
+
 
       {/* Right nav (desktop) */}
       <div className="hidden md:flex items-center">
@@ -68,8 +60,16 @@ export default function ContactPage() {
 
       {/* Bottom nav (mobile only) */}
       <div className="md:hidden mt-12">
-        <MobileNav />
+        <nav className="flex justify-center space-x-6 text-base text-gray-700">
+          <Link href="/" className="hover:underline">about</Link>
+          <Link href="/projects" className="hover:underline">projects</Link>
+          <Link href="/explore" className="hover:underline">explore</Link>
+          <Link href="/contact" className="hover:underline">contact</Link>
+        </nav>
       </div>
     </main>
+        {/* Mobile bottom nav */}
+          <MobileNav />
+        </>
   );
 }
