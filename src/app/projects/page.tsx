@@ -4,7 +4,7 @@ export default function ProjectsPage(){
 <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans">
             {/* Left content */}
       <div className="max-w-xl space-y-6">
-        <h1 className="text-5xl font-serif lowercase">what i have been buidling</h1>
+        <h1 className="text-5xl font-serif lowercase">what i have been building</h1>
         <p className="text-lg text-gray-600"></p>
       </div>
 
