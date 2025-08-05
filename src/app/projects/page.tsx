@@ -32,7 +32,7 @@ export default function ProjectsPage() {
           <div className="p-6 border border-dashed border-matcha/40 rounded-xl bg-white/50 backdrop-blur-sm shadow-sm hover:shadow-md transition-shadow duration-300">
             <h3 className="text-lg font-medium text-dark-grey lowercase">Crookie app</h3>
             <p className="text-sm text-gray-500 mt-2">
-              a cozy, minimalistic app to track your cookie cravings and baking adventures — simple, sweet, and satisfying.
+              a cozy, minimalistic app to share my recipes and baking adventures, based on your location — simple, sweet, and accessiable.
             </p>
           </div>
 
