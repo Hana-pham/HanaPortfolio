@@ -1,18 +1,14 @@
 'use client';
 
-import React from 'react';
-import Link from "next/link";
-import MobileNav from "@/components/MobileNav";
-
+import Link from 'next/link';
+import MobileNav from '@/components/MobileNav';
 
 export default function ProjectsPage() {
   return (
     <>
-    <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans bg-cream">
-      
-      {/* Left content */}
-      <div className="max-w-xl space-y-6">
-        <h1 className="text-5xl font-serif lowercase text-dark-grey">
+      <main className="min-h-screen flex flex-col md:flex-row justify-between px-6 md:px-12 py-16 md:py-24 font-sans bg-cream">
+        <div className="max-w-xl space-y-6">
+          <h1 className="text-5xl font-serif lowercase text-dark-grey">
           what i have been building
         </h1>
 
@@ -43,19 +39,17 @@ export default function ProjectsPage() {
 
         </div>
       </div>
-
       {/* Right nav (desktop) */}
-      <div className="hidden md:flex items-center">
-        <nav className="flex flex-col space-y-6 text-lg text-gray-700">
-          <Link href="/" className="hover:underline">about</Link>
-          <Link href="/projects" className="hover:underline">projects</Link>
-          <Link href="/explore" className="hover:underline">explore</Link>
-          <Link href="/contact" className="hover:underline">contact</Link>
-        </nav>
-      </div>
-    </main>
-          {/* Mobile bottom nav */}
-          <MobileNav />
-        </>
+        <div className="hidden md:flex items-center">
+          <nav className="flex flex-col space-y-6 text-lg text-gray-700">
+            <Link href="/">about</Link>
+            <Link href="/projects">projects</Link>
+            <Link href="/explore">explore</Link>
+            <Link href="/contact">contact</Link>
+          </nav>
+        </div>
+      </main>
+      <MobileNav />
+    </>
   );
 }
