@@ -39,7 +39,10 @@ export default function ExplorePage() {
           </nav>
         </div>
       </main>
-      <MobileNav />
+<div className="pt-6">
+  <MobileNav />
+</div>
+
     </>
   );
 }

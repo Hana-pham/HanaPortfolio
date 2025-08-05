@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hana Pham",
   description: "Personal portfolio of Hana Pham",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    viewportFit: "cover", // Prevents white gap on iOS when using fixed bottom bars
+  },
 };
 
 export default function RootLayout({
@@ -25,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-cream text-dark-grey`}
         suppressHydrationWarning
       >
         {children}

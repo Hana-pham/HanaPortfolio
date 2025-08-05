@@ -34,7 +34,10 @@ export default function Home() {
           </nav>
         </div>
       </main>
-      <MobileNav />
+<div className="pt-6">
+  <MobileNav />
+</div>
+
     </>
   );
 }

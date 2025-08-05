@@ -31,7 +31,9 @@ export default function ContactPage() {
           </nav>
         </div>
       </main>
-      <MobileNav />
+      <div className="pt-6">
+  <MobileNav />
+</div>
     </>
   );
 }

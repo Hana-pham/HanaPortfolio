@@ -49,7 +49,10 @@ export default function ProjectsPage() {
           </nav>
         </div>
       </main>
-      <MobileNav />
+<div className="pt-6">
+  <MobileNav />
+</div>
+
     </>
   );
 }
