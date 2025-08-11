@@ -12,13 +12,16 @@ export default function Home() {
             hana pham
           </h1>
           <p className="text-lg text-dark-grey">
-            third-year service analyst with deep experience across tech operations — including data, development, security, and networking. now transitioning into QA and AI platform engineering.
+            i work at the intersection of automation, APIs, and system reliability, with 3+ years of experience making complex systems faster and more reliable — from cutting process delays by 85% to keeping 900+ locations running at 99.9% uptime.
           </p>
           <p className="text-lg text-dark-grey">
-            i bring curiosity, precision, and a strong user-focus to every project — with a growing interest in building smarter, AI-enhanced experiences.
+            i’m now moving deeper into software engineering, focusing on AI-powered applications and API testing. I like building things that work every time, whether it’s a feature for an internal team or a public-facing app like <span className="font-semibold">SpringPetals</span>.
           </p>
           <p className="text-lg text-dark-grey">
-            i build to learn — and seek collaborators who do the same. connection is strategic. the right ones push the work forward.
+            my toolkit includes JavaScript (Next.js, React), Python, SQL, Playwright, Postman, Supabase, and CI/CD with GitHub Actions. I deploy fast, test thoroughly, and care about getting the details right.
+          </p>
+          <p className="text-lg text-dark-grey">
+            i’m looking for opportunities where I can help build reliable, scalable products with a team that values precision and impact.
           </p>
           <div className="inline-flex items-center gap-2 bg-light-pink/60 text-dark-pink text-sm px-3 py-1 rounded-full animate-pulse w-fit">
             🌱 always learning — one thoughtful build at a time
@@ -34,10 +37,9 @@ export default function Home() {
           </nav>
         </div>
       </main>
-<div className="pt-6">
-  <MobileNav />
-</div>
-
+      <div className="pt-6">
+        <MobileNav />
+      </div>
     </>
   );
 }
