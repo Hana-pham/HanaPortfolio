@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HanaPortfolio
 
-## Getting Started
+Personal portfolio built with [Next.js](https://nextjs.org) to showcase my projects, skills, and career journey as I transition from automation and system reliability into software engineering — with a focus on AI-powered applications and API testing.
 
-First, run the development server:
+## 🚀 Live Site
+[**hanapham.com**](https://hanapham.com) – updated regularly with new projects and case studies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💡 About Me
+I have 3+ years of experience improving system performance and reliability — from reducing process delays by 85% to maintaining 99.9% uptime across 900+ distributed locations.  
+Now, I’m building public-facing applications that combine **software development** and **quality engineering**, with projects like [SpringPetals](https://spring-petals.com), an AI-powered search and knowledge app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tech Stack
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend & DB:** Node.js, Supabase, PostgreSQL
+- **Testing:** Playwright, Postman, JSON Schema Validation
+- **Other:** GitHub Actions (CI/CD), Vercel Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Featured Projects
+- **SpringPetals** – AI-powered flower search and care guide with Supabase backend.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📬 Contact
+- **Portfolio:** [hanapham.com](https://hanapham.com)
+- **LinkedIn:** [linkedin.com/in/hana-pham](https://linkedin.com/in/hana-pham)
+- **GitHub:** [github.com/Hana-pham](https://github.com/Hana-pham)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
